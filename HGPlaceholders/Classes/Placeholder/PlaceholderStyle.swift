@@ -37,7 +37,7 @@ public struct PlaceholderStyle {
     public var actionBackgroundColor: UIColor?
     
     /// The color of activity indicator view of the placeholder, the default value is light gray
-    public var activityIndicatorColor = UIColor.lightGray
+//    public var activityIndicatorColor = UIColor.lightGray
     
     /// The background color of the placeholder, the default value is clear
     public var backgroundColor = UIColor.clear

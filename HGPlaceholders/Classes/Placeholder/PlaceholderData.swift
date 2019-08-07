@@ -26,7 +26,7 @@ public struct PlaceholderData {
     public var action: String?
     
     /// Should shows the activity indicator of the placeholder or not
-    public var showsLoading = false
+//    public var showsLoading = false
     
     // MARK: init methods
     
@@ -54,7 +54,7 @@ public struct PlaceholderData {
         loadingStyle.title = NSLocalizedString("Loading...", comment: "")
         loadingStyle.action = NSLocalizedString("Cancel", comment: "")
         loadingStyle.subtitle = NSLocalizedString("The bits are flowing\nslowly today", comment: "")
-        loadingStyle.showsLoading = true
+//        loadingStyle.showsLoading = true
         
         return loadingStyle
     }

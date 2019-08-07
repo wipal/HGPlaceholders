@@ -19,7 +19,7 @@ open class PlaceholderTableViewCell: UITableViewCell {
     @IBOutlet weak var subtitleLabel: UILabel?
     @IBOutlet weak var placeholderImageView: UIImageView?
     @IBOutlet weak var actionButton: UIButton?
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
+//    @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
     
     var cellView: UIView {
         return self
